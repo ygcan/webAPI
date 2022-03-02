@@ -130,7 +130,7 @@ namespace webAPI.Controllers
                     table.Load(myReader);
 
                     myReader.Close();
-                    myCon.Close();
+                    myCon.Close(); 
 
                 }
             }
